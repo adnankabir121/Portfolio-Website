@@ -2,9 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+p{
+    color:dimgray;
 }
 h1{
     font-size:40px;
+}
+h2{
+    font-size:30px;
+}
+h4{
+    color:orange;
 }
 .name-highlight{
     color:orange;
@@ -12,9 +22,54 @@ h1{
 .half-content{
     width:40%;
     float:left;
-    margin-left: 40px;
-    padding:20px;
+    margin-left: 5%;
+    padding-left:2%;
 }
 .half-content img{
     width:100%;
+}
+.banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom:100px ;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(180deg ,#fd746c,#ff9068) ;
+    padding:10px 24px;
+    color: white;
+    border-radius:5px;
+    font-weight:600;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.div-shadow{
+    box-shadow:10px 10px 40px #c2c2c2;
+    border-radius: 5px;
+    height:60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left:5px solid;
+    border-image: linear-gradient(#fd746c,#ff9068);
+    border-image-slice: 1;
+}
+#junior{
+    border-left:5px solid red;
+    border-image: linear-gradient(#36D1DC,#5B86E5);
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
 }
